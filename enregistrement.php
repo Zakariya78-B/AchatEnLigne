@@ -14,17 +14,17 @@
                 'email'=>$email,
                 'mdp'=>$pwd
             ));
-            header('Location:http://localhost/achatenligne/connexion.html');
+            header('Location:http://localhost/achatenligne/achatenligne1.0/connexion.html');
             
         }else{
-            header('Location:http://localhost/achatenligne/enregistrement.html');
+            header('Location:http://localhost/achatenligne/achatenligne1.0/enregistrement.html');
     exit();
         }
         
 
     }else{
        
-    header('Location:http://localhost/achatenligne/enregistrement.html');
+    header('Location:http://localhost/achatenligne/achatenligne1.0/enregistrement.html');
     exit();
 
     }

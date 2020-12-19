@@ -44,7 +44,7 @@
         
     foreach($connexions as $conn):
         if(($_POST['mail']==$conn['email'])&&($_POST['pwd']==$conn['mdp'])){
-            header('Location:http://localhost/achatenligne/connexion.php');
+            header('Location:http://localhost/achatenligne/achatenligne1.0/connexion.php');
         }else{
             echo 'houston we have a problem';
             echo $_POST['mail'];
